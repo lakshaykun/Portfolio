@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshay's Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="icon" href="imgs/lk.jpeg" type="image/jpg">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">L</div>
+            <div class="logo-text">Portfolio Website</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Skills</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#" class="button">Contact Me</a>
+                </li>
+            </ul>
+            <a href="#" class="menu-toggle" onclick="toggleMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>
+                </svg>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1><small>Hi, I'm</small>
+                        Lakshay
+                    </h1>
+                    <p>
+                        Passionate AI and data engineering student with a knack for 
+                        solving real-world problems through code. 
+                        <span> I love building 
+                        smart systems, exploring tech, and turning ideas 
+                        into impactful projects.</span>
+                    </p>
+                    <div class="call-to-action">
+                        <a href="#" class="button black">View Resume</a>
+                        <a href="#" class="button white">Contact Me</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/lakshaykun/">
+                            <img src="imgs/github.png" alt="GitHub">
+                        </a>
+                        <a href="https://www.linkedin.com/in/lakshay-lk/">
+                            <img src="imgs/linkedin.png" alt="Linkedin">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-yellow">
+                <img src="imgs/lk.jpeg" alt="Lakshay Lk">
+            </div>
+        </section>
+        <section class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="imgs/html.png" alt="HTML">
+                    <img src="imgs/css.png" alt="CSS">
+                    <img src="imgs/javascript.png" alt="JavaScript">
+                    <img src="imgs/python.png" alt="Python">
+                    <img src="imgs/vscode.png" alt="VSCode">
+                    <img src="imgs/tensorflow.png" alt="TensorFlow">
+                    <img src="imgs/bootstrap.png" alt="Bootstrap">
+                    <img src="imgs/cpp.png" alt="C++">
+                    <img src="imgs/hugging.png" alt="Hugging Face">
+                    <!-- duplicate -->
+                    <img src="imgs/html.png" alt="HTML">
+                    <img src="imgs/css.png" alt="CSS">
+                    <img src="imgs/javascript.png" alt="JavaScript">
+                    <img src="imgs/python.png" alt="Python">
+                    <img src="imgs/vscode.png" alt="VSCode">
+                    <img src="imgs/tensorflow.png" alt="TensorFlow">
+                    <img src="imgs/bootstrap.png" alt="Bootstrap">
+                    <img src="imgs/cpp.png" alt="C++">
+                    <img src="imgs/hugging.png" alt="Hugging Face">
+                </div>
+            </div>
+        </section>
+        <section class="skills container">
+            <h2>
+                <small>About Me</small>
+                Skills
+            </h2>
+            <div class="holder-blue">
+                <div class="left-column">
+
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>C++</li>
+                    </ul>
+
+                    <h3>AI / ML</h3>
+                    <ul>
+                        <li>Supervised/Unsupervised ML Algorithms</li>
+                        <li>Natural Language Processing</li>
+                        <li>TensorFlow</li>
+                        <li>Scikit-learn</li>
+                        <li>OpenCV</li>
+                        <li>Hugging Face</li>
+                    </ul>
+
+                    <h3>Front End WebD</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Tailwind CSS</li>
+                        <li>Bootstrap</li>
+                    </ul>
+
+                    <h3>Back End WebD</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>Flask</li>
+                    </ul>
+
+                    <h3>Tools & Technologies</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>UNIX</li>
+                        <li>VSCode</li>
+                        <li>Latex</li>
+                    </ul>
+
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>Firebase</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>
+                        Passionate AI and data engineering student with a knack for 
+                        solving real-world problems through code. I love building 
+                        smart systems, exploring tech, and turning ideas 
+                        into impactful projects.
+                    </p>
+                    <p>
+                        Passionate AI and data engineering student with a knack for 
+                        solving real-world problems through code. I love building 
+                        smart systems, exploring tech, and turning ideas 
+                        into impactful projects.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="work-experience container">
+            <h2>
+                <small>Recent</small>
+                Positions of Responsibility
+            </h2>
+            <div class="pors">
+                <article>
+                    <figure>
+                        <img src="imgs/br.jpg" alt="BR">
+                        <figcaption>
+                            Branch Representative
+                        </figcaption>
+                    </figure>
+                    <h3>
+                        Branch Representative,
+                        <span>Artificial Intelligence and Data Engineering Branch</span>
+                    </h3>
+                    <div>
+                        July 2024 - Present
+                    </div>
+                    <p>
+                        As the Branch Representative for the Artificial Intelligence and Data Engineering branch, I lead initiatives to enhance student engagement, foster collaboration, and promote academic excellence within the branch. My role involves organizing events, facilitating communication between students and faculty, and representing the branch in various forums.
+                    </p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="imgs/zeitgeist.jpg" alt="co-head">
+                        <figcaption>
+                            Co Head of Decoration
+                        </figcaption>
+                    </figure>
+                    <h3>
+                        Co Head of Decoration,
+                        <span>Zeitgeist - The Annual Cultural Fest</span>
+                    </h3>
+                    <div>
+                        Jun 2024 - Nov 2024
+                    </div>
+                    <p>
+                        As the Decoration Co Head for Zeitgeist, I was responsible for designing and implementing the visual aesthetics of the event. This includes creating engaging and thematic decorations that enhance the overall atmosphere, coordinating with Heads and the volunteers, and ensuring that all elements align with the event's vision.
+                    </p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="imgs/zeitgeist.jpg" alt="Event Management">
+                        <figcaption>
+                            Event Management
+                        </figcaption>
+                    </figure>
+                    <h3>
+                        Event Management Team Member,
+                        <span>Zeitgeist - The Annual Cultural Fest</span>
+                    </h3>
+                    <div>
+                        Oct 2023 - Nov 2023
+                    </div>
+                    <p>
+                        As a member of the Event Management team for Alankar Music Club during Zeitgeist, I played a key role in organizing and executing musical events. My responsibilities included coordinating with performers, managing logistics, and ensuring a smooth flow of events to create an engaging experience for attendees.
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section class="bento container">
+            <h2>
+                <small>My</small>
+                Projects
+            </h2>
+            <div class="bento-grid">
+                <div class="bento-item">
+                    <img src="imgs/bento1.jpg" alt="HTML">
+                </div>
+                <div class="bento-item">
+                    <img src="imgs/bento2.jpg" alt="HTML">
+                </div>
+                <div class="bento-item">
+                    <img src="imgs/bento3.jpg" alt="HTML">
+                </div>
+                <div class="bento-item">
+                    <img src="imgs/bento4.webp" alt="HTML">
+                </div>
+                <div class="bento-item">
+                    <img src="imgs/bento5.webp" alt="HTML">
+                </div>
+                <div class="bento-item">
+                    <img src="imgs/bento6.jpg" alt="HTML">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
